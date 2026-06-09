@@ -196,7 +196,7 @@ async function gerar() {
     var token = await getToken();
 
     var resp = await fetch(
-      'https://us-central1-aiplatform.googleapis.com/v1/projects/ageless-answer-498817-k3/locations/us-central1/publishers/google/models/gemini-2.0-flash-preview-image-generation:generateContent',
+      'https://us-central1-aiplatform.googleapis.com/v1/projects/ageless-answer-498817-k3/locations/us-central1/publishers/google/models/imagen-3.0-generate-002:generateContent',
       {
         method:'POST',
         headers:{'Content-Type':'application/json','Authorization':'Bearer '+token},
